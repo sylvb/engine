@@ -1,0 +1,45 @@
+svg {border: 8px solid grey;float: left;}
+
+zz.moving {transition: transform 50ms;}
+
+.g-piston {}
+.g-bielle {transform-origin: 250px 110px ; }
+.g-vilebrequin{transform-origin: 250px 330px;   }
+
+.g-s-admin {transform-origin: 265px 42px;transform: rotate(30deg) translate(-5px, -20px); }
+
+.g-s-echap {transform-origin: 235px 42px; transform: rotate(-30deg) translate(5px, -20px)}
+
+.texte-vilebrequin   {font-size:14px;line-height:1.25;font-family:Arial;fill:#ffffff; text-anchor: middle}
+.texte-bielle {transform: rotate(90deg) translate(180px, -245px); fill: #000000; font-size: 12px; font-weight: bold;}
+.circulation {display: none;}
+.etincelle {display: none;}
+
+.liste-temps { float: left; margin-left: 24px; font-size: 24px;}
+
+.liste-temps.temps-0 .temps-0 {background-color: #eeeeff;}
+.liste-temps.temps-1 .temps-1 {background-color: #eeeeff;}
+.liste-temps.temps-2 .temps-2 {background-color: #eeeeff;}
+.liste-temps.temps-3 .temps-3 {background-color: #eeeeff;}
+
+.cylindre.temps-0 .chambre {fill: #c6ecc6}
+.cylindre.temps-0 .circulation-admission{display: unset}
+
+.cylindre.temps-0 .g-s-admin {transform: rotate(30deg) translate(-5px, -10px)}
+
+.cylindre.temps-1 .chambre {fill: #c2c2f0}
+
+.cylindre.temps-2 .chambre {fill: #ff0000}
+.cylindre.temps-2 .etincelle{display: unset}
+
+.cylindre.temps-3 .chambre {fill: #996633}
+.cylindre.temps-3 .circulation-echappement{display: unset}
+.cylindre.temps-3 .g-s-echap{transform: rotate(-30deg) translate(5px, -10px)}
+
+.groupeMasque {display: none!important;}
+
+.temps {margin-top: 1em; padding: 0.2em;}
+
+.engine-tools {clear: both; padding: 1em;}
+
+#speedRange {width: 300px; }
